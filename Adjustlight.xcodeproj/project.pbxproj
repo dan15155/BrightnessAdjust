@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAFDFE121F05A8F00B0CA53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFDFE021F05A8F00B0CA53 /* AppDelegate.m */; };
+		BAAFDFE421F05A8F00B0CA53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFDFE321F05A8F00B0CA53 /* ViewController.m */; };
+		BAAFDFE721F05A8F00B0CA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAFDFE521F05A8F00B0CA53 /* Main.storyboard */; };
+		BAAFDFE921F05A9000B0CA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAFDFE821F05A9000B0CA53 /* Assets.xcassets */; };
+		BAAFDFEC21F05A9000B0CA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAFDFEA21F05A9000B0CA53 /* LaunchScreen.storyboard */; };
+		BAAFDFEF21F05A9000B0CA53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFDFEE21F05A9000B0CA53 /* main.m */; };
+		BAAFDFF921F05A9000B0CA53 /* AdjustlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFDFF821F05A9000B0CA53 /* AdjustlightTests.m */; };
+		BAAFE00421F05A9000B0CA53 /* AdjustlightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFE00321F05A9000B0CA53 /* AdjustlightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAAFDFF521F05A9000B0CA53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAFDFD421F05A8F00B0CA53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAFDFDB21F05A8F00B0CA53;
+			remoteInfo = Adjustlight;
+		};
+		BAAFE00021F05A9000B0CA53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAFDFD421F05A8F00B0CA53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAFDFDB21F05A8F00B0CA53;
+			remoteInfo = Adjustlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAAFDFDC21F05A8F00B0CA53 /* Adjustlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adjustlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAFDFDF21F05A8F00B0CA53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAAFDFE021F05A8F00B0CA53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAAFDFE221F05A8F00B0CA53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAAFDFE321F05A8F00B0CA53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAAFDFE621F05A8F00B0CA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAAFDFE821F05A9000B0CA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAAFDFEB21F05A9000B0CA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAAFDFED21F05A9000B0CA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAFDFEE21F05A9000B0CA53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAAFDFF421F05A9000B0CA53 /* AdjustlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAFDFF821F05A9000B0CA53 /* AdjustlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustlightTests.m; sourceTree = "<group>"; };
+		BAAFDFFA21F05A9000B0CA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAFDFFF21F05A9000B0CA53 /* AdjustlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustlightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAFE00321F05A9000B0CA53 /* AdjustlightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustlightUITests.m; sourceTree = "<group>"; };
+		BAAFE00521F05A9000B0CA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAFDFD921F05A8F00B0CA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFDFF121F05A9000B0CA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFDFFC21F05A9000B0CA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAFDFD321F05A8F00B0CA53 = {
+			isa = PBXGroup;
+			children = (
+				BAAFDFDE21F05A8F00B0CA53 /* Adjustlight */,
+				BAAFDFF721F05A9000B0CA53 /* AdjustlightTests */,
+				BAAFE00221F05A9000B0CA53 /* AdjustlightUITests */,
+				BAAFDFDD21F05A8F00B0CA53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAFDFDD21F05A8F00B0CA53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAFDFDC21F05A8F00B0CA53 /* Adjustlight.app */,
+				BAAFDFF421F05A9000B0CA53 /* AdjustlightTests.xctest */,
+				BAAFDFFF21F05A9000B0CA53 /* AdjustlightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAFDFDE21F05A8F00B0CA53 /* Adjustlight */ = {
+			isa = PBXGroup;
+			children = (
+				BAAFDFDF21F05A8F00B0CA53 /* AppDelegate.h */,
+				BAAFDFE021F05A8F00B0CA53 /* AppDelegate.m */,
+				BAAFDFE221F05A8F00B0CA53 /* ViewController.h */,
+				BAAFDFE321F05A8F00B0CA53 /* ViewController.m */,
+				BAAFDFE521F05A8F00B0CA53 /* Main.storyboard */,
+				BAAFDFE821F05A9000B0CA53 /* Assets.xcassets */,
+				BAAFDFEA21F05A9000B0CA53 /* LaunchScreen.storyboard */,
+				BAAFDFED21F05A9000B0CA53 /* Info.plist */,
+				BAAFDFEE21F05A9000B0CA53 /* main.m */,
+			);
+			path = Adjustlight;
+			sourceTree = "<group>";
+		};
+		BAAFDFF721F05A9000B0CA53 /* AdjustlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAFDFF821F05A9000B0CA53 /* AdjustlightTests.m */,
+				BAAFDFFA21F05A9000B0CA53 /* Info.plist */,
+			);
+			path = AdjustlightTests;
+			sourceTree = "<group>";
+		};
+		BAAFE00221F05A9000B0CA53 /* AdjustlightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAFE00321F05A9000B0CA53 /* AdjustlightUITests.m */,
+				BAAFE00521F05A9000B0CA53 /* Info.plist */,
+			);
+			path = AdjustlightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAFDFDB21F05A8F00B0CA53 /* Adjustlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAFE00821F05A9000B0CA53 /* Build configuration list for PBXNativeTarget "Adjustlight" */;
+			buildPhases = (
+				BAAFDFD821F05A8F00B0CA53 /* Sources */,
+				BAAFDFD921F05A8F00B0CA53 /* Frameworks */,
+				BAAFDFDA21F05A8F00B0CA53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adjustlight;
+			productName = Adjustlight;
+			productReference = BAAFDFDC21F05A8F00B0CA53 /* Adjustlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAAFDFF321F05A9000B0CA53 /* AdjustlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAFE00B21F05A9000B0CA53 /* Build configuration list for PBXNativeTarget "AdjustlightTests" */;
+			buildPhases = (
+				BAAFDFF021F05A9000B0CA53 /* Sources */,
+				BAAFDFF121F05A9000B0CA53 /* Frameworks */,
+				BAAFDFF221F05A9000B0CA53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAFDFF621F05A9000B0CA53 /* PBXTargetDependency */,
+			);
+			name = AdjustlightTests;
+			productName = AdjustlightTests;
+			productReference = BAAFDFF421F05A9000B0CA53 /* AdjustlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAAFDFFE21F05A9000B0CA53 /* AdjustlightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAFE00E21F05A9000B0CA53 /* Build configuration list for PBXNativeTarget "AdjustlightUITests" */;
+			buildPhases = (
+				BAAFDFFB21F05A9000B0CA53 /* Sources */,
+				BAAFDFFC21F05A9000B0CA53 /* Frameworks */,
+				BAAFDFFD21F05A9000B0CA53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAFE00121F05A9000B0CA53 /* PBXTargetDependency */,
+			);
+			name = AdjustlightUITests;
+			productName = AdjustlightUITests;
+			productReference = BAAFDFFF21F05A9000B0CA53 /* AdjustlightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAFDFD421F05A8F00B0CA53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = henry;
+				TargetAttributes = {
+					BAAFDFDB21F05A8F00B0CA53 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BAAFDFF321F05A9000B0CA53 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BAAFDFDB21F05A8F00B0CA53;
+					};
+					BAAFDFFE21F05A9000B0CA53 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BAAFDFDB21F05A8F00B0CA53;
+					};
+				};
+			};
+			buildConfigurationList = BAAFDFD721F05A8F00B0CA53 /* Build configuration list for PBXProject "Adjustlight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAAFDFD321F05A8F00B0CA53;
+			productRefGroup = BAAFDFDD21F05A8F00B0CA53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAFDFDB21F05A8F00B0CA53 /* Adjustlight */,
+				BAAFDFF321F05A9000B0CA53 /* AdjustlightTests */,
+				BAAFDFFE21F05A9000B0CA53 /* AdjustlightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAFDFDA21F05A8F00B0CA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAFDFEC21F05A9000B0CA53 /* LaunchScreen.storyboard in Resources */,
+				BAAFDFE921F05A9000B0CA53 /* Assets.xcassets in Resources */,
+				BAAFDFE721F05A8F00B0CA53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFDFF221F05A9000B0CA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFDFFD21F05A9000B0CA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAFDFD821F05A8F00B0CA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAFDFE421F05A8F00B0CA53 /* ViewController.m in Sources */,
+				BAAFDFEF21F05A9000B0CA53 /* main.m in Sources */,
+				BAAFDFE121F05A8F00B0CA53 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFDFF021F05A9000B0CA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAFDFF921F05A9000B0CA53 /* AdjustlightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFDFFB21F05A9000B0CA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAFE00421F05A9000B0CA53 /* AdjustlightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAAFDFF621F05A9000B0CA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAFDFDB21F05A8F00B0CA53 /* Adjustlight */;
+			targetProxy = BAAFDFF521F05A9000B0CA53 /* PBXContainerItemProxy */;
+		};
+		BAAFE00121F05A9000B0CA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAFDFDB21F05A8F00B0CA53 /* Adjustlight */;
+			targetProxy = BAAFE00021F05A9000B0CA53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAAFDFE521F05A8F00B0CA53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAFDFE621F05A8F00B0CA53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAFDFEA21F05A9000B0CA53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAFDFEB21F05A9000B0CA53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAFE00621F05A9000B0CA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAAFE00721F05A9000B0CA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAFE00921F05A9000B0CA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Adjustlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.Adjustlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAAFE00A21F05A9000B0CA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Adjustlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.Adjustlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAAFE00C21F05A9000B0CA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdjustlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.AdjustlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adjustlight.app/Adjustlight";
+			};
+			name = Debug;
+		};
+		BAAFE00D21F05A9000B0CA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdjustlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.AdjustlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adjustlight.app/Adjustlight";
+			};
+			name = Release;
+		};
+		BAAFE00F21F05A9000B0CA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdjustlightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.AdjustlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adjustlight;
+			};
+			name = Debug;
+		};
+		BAAFE01021F05A9000B0CA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdjustlightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.AdjustlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adjustlight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAFDFD721F05A8F00B0CA53 /* Build configuration list for PBXProject "Adjustlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAFE00621F05A9000B0CA53 /* Debug */,
+				BAAFE00721F05A9000B0CA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAFE00821F05A9000B0CA53 /* Build configuration list for PBXNativeTarget "Adjustlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAFE00921F05A9000B0CA53 /* Debug */,
+				BAAFE00A21F05A9000B0CA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAFE00B21F05A9000B0CA53 /* Build configuration list for PBXNativeTarget "AdjustlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAFE00C21F05A9000B0CA53 /* Debug */,
+				BAAFE00D21F05A9000B0CA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAFE00E21F05A9000B0CA53 /* Build configuration list for PBXNativeTarget "AdjustlightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAFE00F21F05A9000B0CA53 /* Debug */,
+				BAAFE01021F05A9000B0CA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAFDFD421F05A8F00B0CA53 /* Project object */;
+}
